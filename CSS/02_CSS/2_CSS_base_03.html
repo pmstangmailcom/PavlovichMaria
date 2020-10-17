@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base_3</title>
+    <style>
+        .base{
+            background-color:lightgrey;
+        }
+        .block_navig{
+            background-color: gray;
+            width: 15em;
+            float: left;
+        }
+        .article{
+            background-color: lightskyblue;
+            width: auto;
+            height: auto;
+            margin-bottom: 2em;
+            margin-left: 240px;
+                  
+        }
+        .footer{
+            background-color: lightslategray;
+            height: auto;
+            width: auto;
+        }
+        .spacer{
+            background-color: yellowgreen;  
+            clear: both;
+            height: 10px;
+        }
+        
+
+    </style>
+</head>
+<body> 
+    <div class="base">
+        <div class="block_navig">
+            <h3>Блок навигации</h3>
+            <ul>
+                <li>Ширина 15em</li>
+                <li>Должен присутствовать цвет фона</li>
+                <li>Располагается слева</li>
+                <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал захватывать вторую статью, 
+                    как показано в данном примере </li>                            
+            </ul>
+            
+        </div>        
+        <div>
+            <div class="article">
+                <h3>Статья 1</h3>
+                    Размер блока:<br>
+                    Занимает всю доступную шарину<br>
+                    Должен присутствовать цвет фона<br>
+                    Во всех статьях сделайте отступ снизу от соседей равным 2em, при помощи свойства margin-bottom
+            </div>
+            <div class="article">
+                <h3>Статья 2</h3>
+                    Размер блока:<br>
+                    Занимает всю доступную шарину<br>
+                    Должен присутствовать цвет фона<br>
+                    Во всех статьях сделайте отступ снизу от соседей равным 2em, при помощи свойства margin-bottom.
+                    Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для этой картинки
+                <p align="right"><img style="float: none; " src="icon_mail.png"></p>           
+            </div>
+            <div class="spacer">
+            </div>
+        </div>        
+    
+    </div>  
+    
+    
+    <div class="footer">
+        Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом
+    </div>
+
+</body>
+</html>
